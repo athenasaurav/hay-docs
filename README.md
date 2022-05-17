@@ -38,8 +38,8 @@ Note : Sometimes this work on Linode : ```systemctl restart elasticsearch```
 
 ## Git Clone Aurelius
 ```
-git clone https://github.com/athenasaurav/aurelius.git
-cd aurelius
+git clone https://github.com/athenasaurav/hay-docs.git
+cd hay-docs
 ```
 
 ## Install requirments
