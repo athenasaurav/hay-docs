@@ -64,3 +64,13 @@ To create a Tmux session with a custom name easy to remember use the following c
 then in the new screen run ```python3 app.py``` (on Python 3)
 
 Voila! you bot has started running.
+
+
+You can now close the SSH window or come out of screen by pressing `ctrl`+`b` and then `d`
+
+If you would like to see whats happening in your program you can write ```tmux attach -t <screenname or screennumber>```
+
+NOTE: we have deployed with a name ```Bot```.
+
+To kill the screen, run command ```tmux kill-session```
+
