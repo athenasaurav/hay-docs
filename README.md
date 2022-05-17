@@ -50,7 +50,17 @@ cd aurelius
 pip3 uninstall pymilvus
 pip3 install pymilvus==1.1.2
 ```
-# Run api.py
-```
-python3 api.py
-```
+
+Check first if Tmux is installed or not by trying to install tmux ```sudo apt-get install tmux```
+
+# Deploying using Tmux
+
+Firstly use command ```tmux``` to open a tmux screen. 
+
+By default tmux start the screen numbering from 0. You can specify name parameter to name something different the screen which will be easy to remember.
+
+To create a Tmux session with a custom name easy to remember use the following command ```tmux new -s <sessionname or sessionnumber>```
+
+then in the new screen run ```python3 app.py``` (on Python 3)
+
+Voila! you bot has started running.
