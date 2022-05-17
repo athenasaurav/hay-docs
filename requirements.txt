@@ -1,0 +1,5 @@
+fastapi
+farm-haystack[faiss]
+uvicorn
+flask
+requests
